@@ -1,0 +1,26 @@
+body{
+    background: #FF0000;
+}
+
+.post{
+    background: #B3B300;
+    border-radius: 45px;
+    width: 700px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post-title{
+    font-style: italic;
+    font-size: 24;
+    margin-bottom: 10;
+    text-align: center;
+}
+
+.post-description{
+    text-align: justify;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
