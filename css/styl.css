@@ -35,3 +35,12 @@ body{
     box-sizing: border-box;
     display: inline-block;
 }
+.nav-item{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #B3B300;
+}
+.nav-item:hover{
+   background: #000; 
+}
