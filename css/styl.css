@@ -1,3 +1,4 @@
+@import "variable.css";
 body{
     margin: 0px;
     padding: 0px;
@@ -8,23 +9,23 @@ body{
     width: 600px;
 }
 .navigation{
-    background: red;
+    background: var(--primary-color);
     color: white;
     padding: 5px;
     text-align: center;
 }
 .footer{
-    background: red;
+    background: var(--primary-color);
 }
 .title{
     font-weight: normal;
     font-size: 28;
-    color: black;
+    color: var(--primary-background);
 }
 .subtitle{
     font-weight: lighter;
     font-size: 20px;
-    color: gold;
+    color: var(--secondary-color);
 }
 .full-column{
     width: 100%;
@@ -39,8 +40,8 @@ body{
     display: inline-block;
     padding: 10px;
     text-decoration: none;
-    color: #B3B300;
+    color: var(--secondary-color);
 }
 .nav-item:hover{
-   background: #000; 
+   background: var(--primary-background); 
 }

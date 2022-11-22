@@ -1,9 +1,10 @@
+@import "variable.css";
 body{
-    background: #FF0000;
+    background: var(--primary-color);
 }
 
 .post{
-    background: #B3B300;
+    background: var(--secondary-color);
     border-radius: 45px;
     width: 700px;
     padding: 15px;
@@ -11,14 +12,14 @@ body{
     margin-bottom: 10px;
 }
 
-.post-title{
+.post h2{
     font-style: italic;
     font-size: 24;
     margin-bottom: 10;
     text-align: center;
 }
 
-.post-description{
+.post p{
     text-align: justify;
     width: 80%;
     margin-right: auto;

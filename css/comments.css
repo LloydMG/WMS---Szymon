@@ -1,12 +1,13 @@
+@import "variable.css";
 .comment{
-   background: #B3B300;
+   background: var(--secondary-color);
    padding: 15px;
    margin-top: 15px;
    margin-bottom: 15px; 
 }
 
 .comment:hover{
-    background: #000;
+    background: var(--primary-background);
 }
 
 .title{
@@ -15,11 +16,11 @@
 
 .user-name{
     padding: 3px;
-    border: solid 1px #000;
+    border: solid 1px var(--primary-background);
 }
 
 input:focus{
-    border: #000;
+    border: var(--primary-background);
     border-width: 3px;
 }
 
