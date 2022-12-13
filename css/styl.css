@@ -1,47 +1,4 @@
 @import "variable.css";
-body{
-    margin: 0px;
-    padding: 0px;
-}
-.container{
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-}
-.navigation{
-    background: var(--primary-color);
-    color: white;
-    padding: 5px;
-    text-align: center;
-}
 .footer{
     background: var(--primary-color);
-}
-.title{
-    font-weight: normal;
-    font-size: 28;
-    color: var(--primary-background);
-}
-.subtitle{
-    font-weight: lighter;
-    font-size: 20px;
-    color: var(--secondary-color);
-}
-.full-column{
-    width: 100%;
-    box-sizing: border-box;
-}
-.half-column{
-    width: 49.5%;
-    box-sizing: border-box;
-    display: inline-block;
-}
-.nav-item{
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-    color: var(--secondary-color);
-}
-.nav-item:hover{
-   background: var(--primary-background); 
 }

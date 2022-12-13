@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/styl.css">
     <meta charset="UTF-8">
     <title>Galeria</title>
 </head>
 <body>
-    <nav class="navigation">
-        <div class="container">
-            <a href="index.html" class="nav-item">Strona główna</a>
-            <a href="post.html" class="nav-item">Posty</a>
-            <a href="comments.html" class="nav-item">Komentarze</a>
-            <a href="ranking.html" class="nav-item">Ranking</a>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Strona kadeta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Strona główna</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="comments.html">Komentarze</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="post.html">Posty</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="ranking.html">Ranking</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <main class="container">
-        <h1 class="title">Galeria</h1>
+        <h1>Galeria</h1>
         <hr>
-        <a class="img-link" href="zdjecia/siuuu.jpg" target="_blank">
-            <img src="zdjecia/siuuu.jpg" alt="siuuu">
+        <a class="col-3" href="zdjecia/siuuu.jpg" target="_blank">
+            <img class="img-fluid" src="zdjecia/siuuu.jpg" alt="siuuu">
         </a>
-        <a class="img-link" href="zdjecia/siuuu.jpg" target="_blank">
-            <img src="zdjecia/siuuu.jpg" alt="siuuu">
+        <a class="col-3" href="zdjecia/siuuu.jpg" target="_blank">
+            <img class="img-fluid" src="zdjecia/siuuu.jpg" alt="siuuu">
         </a>
-        <a class="img-link" href="zdjecia/siuuu.jpg" target="_blank">
-            <img src="zdjecia/siuuu.jpg" alt="siuuu">
+        <a class="col-3" href="zdjecia/siuuu.jpg" target="_blank">
+            <img class="img-fluid" src="zdjecia/siuuu.jpg" alt="siuuu">
         </a>
-        <a class="img-link" href="zdjecia/siuuu.jpg" target="_blank">
-            <img src="zdjecia/siuuu.jpg" alt="siuuu">
+        <a class="col-3" href="zdjecia/siuuu.jpg" target="_blank">
+            <img class="img-fluid" src="zdjecia/siuuu.jpg" alt="siuuu">
         </a>
-        <a class="img-link" href="zdjecia/siuuu.jpg" target="_blank">
-            <img src="zdjecia/siuuu.jpg" alt="siuuu">
+        <a class="col-3" href="zdjecia/siuuu.jpg" target="_blank">
+            <img class="img-fluid" src="zdjecia/siuuu.jpg" alt="siuuu">
         </a>
         <hr>
     </main>
-    <footer class="footer">
+    <footer class="text-bg-secondary mt-3 p-3">
         <div class="container">
             <h2>Kontakt</h2>
-        <div class="half-column">
-            Opis
-            <p>Strona z kursu Web Master Studio.</p>
-        </div>
-        <div class="half-column">
-            Formy kontaktu
-            <p>Email:sktm@sktm.pl</p>
-        </div>
+            <div class="row">
+                <div class="col-6">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat ipsa delectus saepe, autem cum
+                        sit aspernatur repellendus blanditiis, sint quia consectetur, itaque iure ut expedita mollitia ipsum
+                        temporibus debitis.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p>Mail: przykladowy_mail@gmail.com</p>
+                    <p>Discord: Discord#1234</p>
+                </div>
+            </div>
         </div>
     </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

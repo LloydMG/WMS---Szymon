@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/styl.css">
-    <link rel="stylesheet" href="css/ranking.css">
     <meta charset="UTF-8">
     <title>Spotkanie 1 - Strona Szymona</title>
 </head>
@@ -24,9 +24,9 @@
         </div>
     </nav>
     <main class="container">
-        <h1 class="title">Rankingi</h1>
+        <h1>Rankingi</h1>
         <div>
-            <table>
+            <table class="table table-bordered table-striped">
                 <thead>
                     <tr>
                         <th>Nr</th>
@@ -48,7 +48,7 @@
                     </tr>
                 </tbody>
             </table>
-            <table>
+            <table class="table table-bordered table-striped">
                 <thead>
                     <tr>
                         <th>Nr</th>
@@ -71,18 +71,24 @@
                 </tbody>
             </table>
     </main>
-    <footer class="footer">
+    <footer class="text-bg-secondary mt-3 p-3">
         <div class="container">
             <h2>Kontakt</h2>
-        <div class="half-column">
-            Opis
-            <p>Strona z kursu Web Master Studio.</p>
-        </div>
-        <div class="half-column">
-            Formy kontaktu
-            <p>Email:sktm@sktm.pl</p>
-        </div>
+            <div class="row">
+                <div class="col-6">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat ipsa delectus saepe, autem cum
+                        sit aspernatur repellendus blanditiis, sint quia consectetur, itaque iure ut expedita mollitia ipsum
+                        temporibus debitis.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p>Mail: przykladowy_mail@gmail.com</p>
+                    <p>Discord: Discord#1234</p>
+                </div>
+            </div>
         </div>
     </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

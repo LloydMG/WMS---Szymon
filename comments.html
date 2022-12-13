@@ -3,58 +3,75 @@
 <head>
     <meta charset="UTF-8">   
     <title>Komentarze</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/comments.css">
     <link rel="stylesheet" href="css/styl.css">
 </head>
 <body>
-    <nav class="navigation">
-        <div class="container">
-            <a href="index.html" class="nav-item">Strona główna</a>
-            <a href="post.html" class="nav-item">Posty</a>
-            <a href="galeria.html" class="nav-item">Galeria</a>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Strona kadeta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Strona główna</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="galeria.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="post.html">Posty</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="ranking.html">Ranking</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <main class="container">
         <h1>Komentarze</h1>
         <div class="comment">
-            <p class="title">Jan Paweł II, 02.04.2005r.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi harum cumque sit quidem sequi, eius neque. Ratione quisquam dolore alias iste explicabo nesciunt reprehenderit, perferendis necessitatibus ex nisi natus maiores?</p>
+            <p class="lead">Jan Paweł II, 02.04.2005r.</p>
+            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi harum cumque sit quidem sequi, eius neque. Ratione quisquam dolore alias iste explicabo nesciunt reprehenderit, perferendis necessitatibus ex nisi natus maiores?</p>
         </div>
         <div class="comment">
-            <p class="title">Jan Paweł II, 02.04.2005r.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi harum cumque sit quidem sequi, eius neque. Ratione quisquam dolore alias iste explicabo nesciunt reprehenderit, perferendis necessitatibus ex nisi natus maiores?</p>
+            <p class="lead">Jan Paweł II, 02.04.2005r.</p>
+            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi harum cumque sit quidem sequi, eius neque. Ratione quisquam dolore alias iste explicabo nesciunt reprehenderit, perferendis necessitatibus ex nisi natus maiores?</p>
         </div>
         <div class="comment">
-            <p class="title">Jan Paweł II, 02.04.2005r.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi harum cumque sit quidem sequi, eius neque. Ratione quisquam dolore alias iste explicabo nesciunt reprehenderit, perferendis necessitatibus ex nisi natus maiores?</p>
+            <p class="lead">Jan Paweł II, 02.04.2005r.</p>
+            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi harum cumque sit quidem sequi, eius neque. Ratione quisquam dolore alias iste explicabo nesciunt reprehenderit, perferendis necessitatibus ex nisi natus maiores?</p>
         </div>
-        <div class="half-column">
+        <div class="col-6">
             <label for="nazwaUzytkownika">Nazwa użytkownika</label>
-            <input id="nazwaUzytkownika" class="user-name" type="text" placeholder="Nazwa użytkownika">
+            <input id="nazwaUzytkownika" class="form-control" type="text" placeholder="Nazwa użytkownika">
         </div>
-        <div class="half-column">
+        <div class="col-6">
             <label for="email">E-mail</label>
-            <input id="email" type="text" placeholder="E-mail">
+            <input id="email" class="form-control" type="text" placeholder="E-mail">
         </div>
-        <div class="full-column">
-            <textarea id="tresc" placeholder="Treść"></textarea>
+        <div class="col-12">
+            <textarea id="tresc" class="form-control" placeholder="Treść"></textarea>
         </div>
-        <div class="full-column">
-            <input type="submit" value="Kremówki"></input>
+        <div class="col-12">
+            <input type="submit" class="form-control" value="Kremówki"></input>
         </div>
     </main>
     <hr>
-    <footer>
+    <footer class="text-bg-secondary mt-3 p-3">
         <div class="container">
             <h2>Kontakt</h2>
-            <div class="half-column">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error temporibus magni beatae illo quidem numquam voluptatem dignissimos pariatur similique vero ipsa explicabo, ab labore delectus nostrum, velit quasi vitae maiores!
-            </div>
-            <div class="half-column">
-                <p>Mail:sktm@sktm.pl</p>
-                <p>Discord:Papaj#2137</p>
+            <div class="row">
+                <div class="col-6">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat ipsa delectus saepe, autem cum
+                        sit aspernatur repellendus blanditiis, sint quia consectetur, itaque iure ut expedita mollitia ipsum
+                        temporibus debitis.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p>Mail: przykladowy_mail@gmail.com</p>
+                    <p>Discord: Discord#1234</p>
+                </div>
             </div>
         </div>
-    </footer>>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

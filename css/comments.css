@@ -6,26 +6,9 @@
    margin-bottom: 15px; 
 }
 
-.comment:hover{
-    background: var(--primary-background);
-}
-
-.title{
-    margin: 0;
-}
-
-.user-name{
-    padding: 3px;
-    border: solid 1px var(--primary-background);
-}
-
-input:focus{
-    border: var(--primary-background);
-    border-width: 3px;
-}
-
 textarea{
     width: 100%;
     height: 100px;
     resize: none;
 }
+
